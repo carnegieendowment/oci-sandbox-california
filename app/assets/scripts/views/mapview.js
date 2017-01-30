@@ -30,7 +30,7 @@ var MapView = BaseView.extend({
     var self = this;
     this.hasShareLinkBeenParsed = false;
 
-    this.SWITCH_FROM_MARKERS_TO_POLYGONS_AT_ZOOM = 10;
+    this.SWITCH_FROM_MARKERS_TO_POLYGONS_AT_ZOOM = 9;
 
     var oils = [];
     _.forEach(Oci.data.info, function (oil) { oils.push(oil); });
