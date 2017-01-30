@@ -662,8 +662,8 @@
     "Petrochemical Feedstocks": "N/A",
     "Asphalt": "N/A"
   },
-  "Belmont, Offshore": {
-    "Unique": "Belmont, Offshore",
+  "Belmont Offshore": {
+    "Unique": "Belmont Offshore",
     "Portion Gasoline": "46038.13034",
     "Portion Jet Fuel": "18400.89842",
     "Portion Diesel": "32707.50747",
@@ -1733,8 +1733,8 @@
     "Petrochemical Feedstocks": "N/A",
     "Asphalt": "N/A"
   },
-  "Coles Levee, N": {
-    "Unique": "Coles Levee, N",
+  "Coles Levee, North": {
+    "Unique": "Coles Levee, North",
     "Portion Gasoline": "53268.75286",
     "Portion Jet Fuel": "23275.3579",
     "Portion Diesel": "19903.16901",
@@ -1784,8 +1784,8 @@
     "Petrochemical Feedstocks": "N/A",
     "Asphalt": "N/A"
   },
-  "Coles Levee, S": {
-    "Unique": "Coles Levee, S",
+  "Coles Levee, South": {
+    "Unique": "Coles Levee, South",
     "Portion Gasoline": "55168.11604",
     "Portion Jet Fuel": "24340.9647",
     "Portion Diesel": "19537.77641",
@@ -2345,8 +2345,8 @@
     "Petrochemical Feedstocks": "N/A",
     "Asphalt": "N/A"
   },
-  "Elwood, S., Offshore": {
-    "Unique": "Elwood, S., Offshore",
+  "Elwood, South, Offshore": {
+    "Unique": "Elwood, South, Offshore",
     "Portion Gasoline": "58606.44553",
     "Portion Jet Fuel": "26855.02408",
     "Portion Diesel": "13852.22269",
@@ -3977,8 +3977,8 @@
     "Petrochemical Feedstocks": "N/A",
     "Asphalt": "N/A"
   },
-  "Montalvo, West": {
-    "Unique": "Montalvo, West",
+  "West Montalvo": {
+    "Unique": "West Montalvo",
     "Portion Gasoline": "48981.75874",
     "Portion Jet Fuel": "10217.02334",
     "Portion Diesel": "34222.39197",
@@ -4283,8 +4283,8 @@
     "Petrochemical Feedstocks": "N/A",
     "Asphalt": "N/A"
   },
-  "Newport, West": {
-    "Unique": "Newport, West",
+  "West Newport": {
+    "Unique": "West Newport",
     "Portion Gasoline": "47448.63414",
     "Portion Jet Fuel": "6897.10186",
     "Portion Diesel": "29649.71821",
@@ -6884,8 +6884,8 @@
     "Petrochemical Feedstocks": "N/A",
     "Asphalt": "N/A"
   },
-  "Tapo Canyon, South": {
-    "Unique": "Tapo Canyon, South",
+  "South Tapo Canyon": {
+    "Unique": "South Tapo Canyon",
     "Portion Gasoline": "43827.79117",
     "Portion Jet Fuel": "15954.8864",
     "Portion Diesel": "30711.6315",
