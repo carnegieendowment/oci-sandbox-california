@@ -272,8 +272,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "1.3"
   },
-  "Belmont, Offshore": {
-    "Unique": "Belmont, Offshore",
+  "Belmont Offshore": {
+    "Unique": "Belmont Offshore",
     "Exploration": "0",
     "Drilling": "1.215653979",
     "Production": "6.3186302",
@@ -506,18 +506,18 @@
   "Canfield Ranch": {
     "Unique": "Canfield Ranch",
     "Exploration": "0",
-    "Drilling": "1.3853519",
-    "Production": "4.18157581",
-    "Processing": "5.839224409",
+    "Drilling": "1.392599552",
+    "Production": "4.203452277",
+    "Processing": "5.869773085",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "18.98080073",
+    "Venting, Flaring, and Fugitive Emissions": "19.0801013",
     "Diluent": "0",
-    "Miscellaneous": "2.922356458",
-    "Transport to Refinery": "0.268729042",
-    "Offsite emissions": "-7.125475125",
-    "Net lifecycle emissions": "26.45256322",
+    "Miscellaneous": "2.937645153",
+    "Transport to Refinery": "0.270134934",
+    "Offsite emissions": "-7.162752991",
+    "Net lifecycle emissions": "26.59095331",
     "API Gravity": "28",
     "Gas-to-Oil-Ratio": "1249.419465",
     "Water-to-Oil-Ratio": "3.300381046",
@@ -713,8 +713,8 @@
     "Steam-to-Oil-Ratio": "5.943227694",
     "Flaring-to-Oil-Ratio": "1.3"
   },
-  "Coles Levee, N": {
-    "Unique": "Coles Levee, N",
+  "Coles Levee, North": {
+    "Unique": "Coles Levee, North",
     "Exploration": "0",
     "Drilling": "1.790500048",
     "Production": "4.564155132",
@@ -734,8 +734,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "1.3"
   },
-  "Coles Levee, S": {
-    "Unique": "Coles Levee, S",
+  "Coles Levee, South": {
+    "Unique": "Coles Levee, South",
     "Exploration": "0",
     "Drilling": "1.318198893",
     "Production": "1.226044939",
@@ -965,8 +965,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "1.3"
   },
-  "Elwood, S., Offshore": {
-    "Unique": "Elwood, S., Offshore",
+  "Elwood, South, Offshore": {
+    "Unique": "Elwood, South, Offshore",
     "Exploration": "0",
     "Drilling": "0.853797676",
     "Production": "2.838380327",
@@ -1637,8 +1637,8 @@
     "Steam-to-Oil-Ratio": "5.362842446",
     "Flaring-to-Oil-Ratio": "1.3"
   },
-  "Montalvo, West": {
-    "Unique": "Montalvo, West",
+  "West Montalvo": {
+    "Unique": "West Montalvo",
     "Exploration": "0",
     "Drilling": "1.748626742",
     "Production": "2.051832704",
@@ -1763,8 +1763,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "1.3"
   },
-  "Newport, West": {
-    "Unique": "Newport, West",
+  "West Newport": {
+    "Unique": "West Newport",
     "Exploration": "0",
     "Drilling": "0.832479032",
     "Production": "6.457671413",
@@ -2834,8 +2834,8 @@
     "Steam-to-Oil-Ratio": "0.836644115",
     "Flaring-to-Oil-Ratio": "1.3"
   },
-  "Tapo Canyon, South": {
-    "Unique": "Tapo Canyon, South",
+  "South Tapo Canyon": {
+    "Unique": "South Tapo Canyon",
     "Exploration": "0",
     "Drilling": "0.849535363",
     "Production": "0.713038264",
