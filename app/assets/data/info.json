@@ -531,11 +531,11 @@
     "PRELIM Data Quality": "",
     "OPEM Data Quality": ""
   },
-  "Belridge, North": {
+  "North Belridge": {
     "Region": "District 4",
-    "Unique": "Belridge, North",
+    "Unique": "North Belridge",
     "Country": "United States",
-    "Oil Field Name (OPGEE)": "Belridge, North",
+    "Oil Field Name (OPGEE)": "North Belridge",
     "Assay Name (PRELIM)": "Arab Heavy_Stratiev",
     "Oil Type": "Condensate",
     "API (PRELIM)": "27.2",
@@ -569,11 +569,11 @@
     "PRELIM Data Quality": "",
     "OPEM Data Quality": ""
   },
-  "Belridge, South": {
+  "South Belridge": {
     "Region": "District 4",
-    "Unique": "Belridge, South",
+    "Unique": "South Belridge",
     "Country": "United States",
-    "Oil Field Name (OPGEE)": "Belridge, South",
+    "Oil Field Name (OPGEE)": "South Belridge",
     "Assay Name (PRELIM)": "Bow River North_Crude Monitor",
     "Oil Type": "Condensate",
     "API (PRELIM)": "21.4",
@@ -1291,11 +1291,11 @@
     "PRELIM Data Quality": "",
     "OPEM Data Quality": ""
   },
-  "Coles Levee, North": {
+  "North Coles Levee": {
     "Region": "District 4",
-    "Unique": "Coles Levee, North",
+    "Unique": "North Coles Levee",
     "Country": "United States",
-    "Oil Field Name (OPGEE)": "Coles Levee, North",
+    "Oil Field Name (OPGEE)": "North Coles Levee",
     "Assay Name (PRELIM)": "West texas intermediate_Stratiev",
     "Oil Type": "Condensate",
     "API (PRELIM)": "41",
@@ -1329,11 +1329,11 @@
     "PRELIM Data Quality": "",
     "OPEM Data Quality": ""
   },
-  "Coles Levee, South": {
+  "South Coles Levee": {
     "Region": "District 4",
-    "Unique": "Coles Levee, South",
+    "Unique": "South Coles Levee",
     "Country": "United States",
-    "Oil Field Name (OPGEE)": "Coles Levee, South",
+    "Oil Field Name (OPGEE)": "South Coles Levee",
     "Assay Name (PRELIM)": "Eagle Ford Ultralight_Platts",
     "Oil Type": "Condensate",
     "API (PRELIM)": "43",
@@ -1405,11 +1405,11 @@
     "PRELIM Data Quality": "",
     "OPEM Data Quality": ""
   },
-  "Coyote, East": {
+  "East Coyote": {
     "Region": "District 1",
-    "Unique": "Coyote, East",
+    "Unique": "East Coyote",
     "Country": "United States",
-    "Oil Field Name (OPGEE)": "Coyote, East",
+    "Oil Field Name (OPGEE)": "East Coyote",
     "Assay Name (PRELIM)": "Angola Kuito_Chevron",
     "Oil Type": "Condensate",
     "API (PRELIM)": "22.1",
