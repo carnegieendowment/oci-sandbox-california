@@ -965,8 +965,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Elwood, South, Offshore": {
-    "Unique": "Elwood, South, Offshore",
+  "South Elwood Offshore": {
+    "Unique": "South Elwood Offshore",
     "Exploration": "0",
     "Drilling": "0.853797676",
     "Production": "4.232059841",
