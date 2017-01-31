@@ -77,7 +77,7 @@ var MapView = BaseView.extend({
       }
     )
     .addLayer(this.flaringLayers['2014'])
-    .setView([40, -120], 5);
+    .setView([37, -120], 5);
 
     new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
     this.map = map;
