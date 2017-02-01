@@ -62,8 +62,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Antelope Hills, North": {
-    "Unique": "Antelope Hills, North",
+  "North Antelope Hills": {
+    "Unique": "North Antelope Hills",
     "Exploration": "0",
     "Drilling": "0.859775404",
     "Production": "90.9875746",
@@ -251,8 +251,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Bellevue, West": {
-    "Unique": "Bellevue, West",
+  "West Bellevue": {
+    "Unique": "West Bellevue",
     "Exploration": "0",
     "Drilling": "1.344063822",
     "Production": "14.79468501",
@@ -293,8 +293,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Belridge, North": {
-    "Unique": "Belridge, North",
+  "North Belridge": {
+    "Unique": "North Belridge",
     "Exploration": "0",
     "Drilling": "0.837750181",
     "Production": "15.11226301",
@@ -314,8 +314,8 @@
     "Steam-to-Oil-Ratio": "0.279942913",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Belridge, South": {
-    "Unique": "Belridge, South",
+  "South Belridge": {
+    "Unique": "South Belridge",
     "Exploration": "0",
     "Drilling": "0.808372862",
     "Production": "82.10570195",
@@ -713,8 +713,8 @@
     "Steam-to-Oil-Ratio": "5.943227694",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Coles Levee, North": {
-    "Unique": "Coles Levee, North",
+  "North Coles Levee": {
+    "Unique": "North Coles Levee",
     "Exploration": "0",
     "Drilling": "1.790500048",
     "Production": "11.9774731",
@@ -734,8 +734,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Coles Levee, South": {
-    "Unique": "Coles Levee, South",
+  "South Coles Levee": {
+    "Unique": "South Coles Levee",
     "Exploration": "0",
     "Drilling": "1.318198893",
     "Production": "2.167239599",
@@ -776,8 +776,8 @@
     "Steam-to-Oil-Ratio": "0.944046154",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Coyote, East": {
-    "Unique": "Coyote, East",
+  "East Coyote": {
+    "Unique": "East Coyote",
     "Exploration": "0",
     "Drilling": "0.945439482",
     "Production": "34.42936562",
@@ -797,8 +797,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Cuyama, South": {
-    "Unique": "Cuyama, South",
+  "South Cuyama": {
+    "Unique": "South Cuyama",
     "Exploration": "0",
     "Drilling": "0.890242239",
     "Production": "108.2952533",
@@ -1448,8 +1448,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Los Angeles, East": {
-    "Unique": "Los Angeles, East",
+  "East Los Angeles": {
+    "Unique": "East Los Angeles",
     "Exploration": "0",
     "Drilling": "1.369984847",
     "Production": "55.61698146",
@@ -1490,8 +1490,8 @@
     "Steam-to-Oil-Ratio": "1.627552346",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Lost Hills, Northwest": {
-    "Unique": "Lost Hills, Northwest",
+  "Northwest Lost Hills": {
+    "Unique": "Northwest Lost Hills",
     "Exploration": "0",
     "Drilling": "0.853066442",
     "Production": "9.375876155",
@@ -2288,8 +2288,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Rosecrans, South": {
-    "Unique": "Rosecrans, South",
+  "South Rosecrans": {
+    "Unique": "South Rosecrans",
     "Exploration": "0",
     "Drilling": "1.222064825",
     "Production": "2.528699315",
@@ -2414,8 +2414,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Salt Lake, South": {
-    "Unique": "Salt Lake, South",
+  "South Salt Lake": {
+    "Unique": "South Salt Lake",
     "Exploration": "0",
     "Drilling": "0.828642977",
     "Production": "12.73810375",
@@ -2729,8 +2729,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Shafter, North": {
-    "Unique": "Shafter, North",
+  "North Shafter": {
+    "Unique": "North Shafter",
     "Exploration": "0",
     "Drilling": "1.271220677",
     "Production": "5.791783816",
@@ -2897,8 +2897,8 @@
     "Steam-to-Oil-Ratio": "3",
     "Flaring-to-Oil-Ratio": "9.75"
   },
-  "Tejon, North": {
-    "Unique": "Tejon, North",
+  "North Tejon": {
+    "Unique": "North Tejon",
     "Exploration": "0",
     "Drilling": "1.449059114",
     "Production": "3.271194754",
