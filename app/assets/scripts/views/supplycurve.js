@@ -219,7 +219,7 @@ var SupplyCurve = BaseView.extend({
               .scale(this.xScale)
               .orient('bottom')
               .ticks(10)
-              .tickFormat(function (d) { return d / 1000000; });
+              .tickFormat(function (d) { return d / 10000; });
 
     // Define Y axis
     this.yAxis = d3.svg.axis()
