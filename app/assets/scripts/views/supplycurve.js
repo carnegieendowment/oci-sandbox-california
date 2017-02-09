@@ -33,7 +33,7 @@ var SupplyCurve = BaseView.extend({
     this.chartElement = '#supply-curve';
     this.margin = {top: 38, right: 8, bottom: 72, left: 84};
     this.aspectRatio = 2.5;
-    this.minProductionDisplayWidth = 600;
+    this.minProductionDisplayWidth = 6000;
     this.transitionDuration = 1000;
     this.filters = {};
     this.hasShareLinkBeenParsed = false;
@@ -219,7 +219,7 @@ var SupplyCurve = BaseView.extend({
               .scale(this.xScale)
               .orient('bottom')
               .ticks(10)
-              .tickFormat(function (d) { return d / 1000000; });
+              .tickFormat(function (d) { return d / 10000; });
 
     // Define Y axis
     this.yAxis = d3.svg.axis()
