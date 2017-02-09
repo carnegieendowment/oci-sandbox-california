@@ -145,7 +145,7 @@ var SupplyCurve = BaseView.extend({
       if (index === 0) {
         oil.x0 = 0;
       } else {
-        oil.x0 = oils[index - 1].x0 + oils[index - 1].plotProductionVolume+1;
+        oil.x0 = oils[index - 1].x0 + oils[index - 1].plotProductionVolume + 1;
       }
 
       // Keep track of total for x axis
