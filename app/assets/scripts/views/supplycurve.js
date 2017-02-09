@@ -33,7 +33,7 @@ var SupplyCurve = BaseView.extend({
     this.chartElement = '#supply-curve';
     this.margin = {top: 38, right: 8, bottom: 72, left: 84};
     this.aspectRatio = 2.5;
-    this.minProductionDisplayWidth = 60000;
+    this.minProductionDisplayWidth = 60;
     this.transitionDuration = 1000;
     this.filters = {};
     this.hasShareLinkBeenParsed = false;
@@ -145,7 +145,7 @@ var SupplyCurve = BaseView.extend({
       if (index === 0) {
         oil.x0 = 0;
       } else {
-        oil.x0 = oils[index - 1].x0 + oils[index - 1].plotProductionVolume + 1;
+        oil.x0 = oils[index - 1].x0 + oils[index - 1].plotProductionVolume;
       }
 
       // Keep track of total for x axis
