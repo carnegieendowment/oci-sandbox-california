@@ -281,7 +281,7 @@ var EmissionsDrivers = BaseView.extend({
        })
        .attr('cy', function (d) { return d; })
        .attr('r', function (d, i) {
-         return self.rScale([5000000, 2000000, 100000][i]);
+         return self.rScale([50000, 20000, 1000][i]);
        });
 
     d3.select('svg').selectAll('.circle-text')
