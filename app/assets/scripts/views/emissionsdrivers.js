@@ -277,7 +277,7 @@ var EmissionsDrivers = BaseView.extend({
        .attr('fill-opacity', '0')
        .attr('stroke', '#777')
        .attr('cx', function (d) {
-         return width + margin.left + margin.right - 55;
+         return width + margin.left + margin.right - 5;
        })
        .attr('cy', function (d) { return d; })
        .attr('r', function (d, i) {
