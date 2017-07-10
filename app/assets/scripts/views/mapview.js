@@ -112,6 +112,33 @@ var MapView = BaseView.extend({
         var tooltipOptions = {
           closeButton: false
         };
+          
+    refineries.forEach(function (refinery) {
+      var refinery = utils.getRefinery(refinery.Unique);
+
+      if (refinery) {
+        var centroid = turfCentroid(refinery);
+        var radiusValue = Number(refinery['Total Emissions']);
+        var ghgTotal = utils.numberWithCommas(refinery['Total Emissions']);
+
+        var tooltip = utils.createTooltipHtml(
+          refinery.Unique,
+          [
+            {
+              name: 'GHG Emissions',
+              value: ghgTotal,
+              units: utils.getUnits('ghgTotal', 'perBarrel')
+            }
+          ],
+          utils.makeRefId(refinery.Unique),
+          '',
+          refinery['Absolute Emissions Icons'],
+          '',
+          true
+        );
+        var tooltipOptions = {
+          closeButton: false
+        };
 
         // Circle marker style, default & interactive
         var marker = L.circleMarker(
