@@ -342,6 +342,19 @@ var utils = {
 
     return s[0].toUpperCase() + s.slice(1);
   },
+    
+ makeRefId: function (unique) {
+    return unique.toLowerCase().replace(/ /g, '-');
+  },
+
+  // Return a string with first letter uppercased
+  capitalize: function (s) {
+    if (!s) {
+      return '';
+    }
+
+    return s[0].toUpperCase() + s.slice(1);
+  },
 
   numberWithCommas: function (x) {
     if (typeof x === 'string') { x = Number(x.split(',').join('')); }
@@ -856,6 +869,18 @@ var utils = {
     }
     return _.find(Oci.oilfields.features, function (feature) {
       return oilFieldName === feature.properties.Field_Name;
+    });
+  },
+
+  getRefinery: function (unique) {
+    // argument is an Oci.data.refineryinfo property key
+    var refinery = Oci.data.inforefinery[unique];
+    var refineryName = refinery['Refinery Name'];
+    if (refineryName.match('Bakken')) {
+      refineryName = 'Bakken';
+    }
+    return _.find(Oci.refinery.features, function (feature) {
+      return refineryName === feature.properties.Field_Name;
     });
   },
 
