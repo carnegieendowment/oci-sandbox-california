@@ -342,18 +342,9 @@ var utils = {
 
     return s[0].toUpperCase() + s.slice(1);
   },
-    
- makeRefId: function (unique) {
+
+  makeRefId: function (unique) {
     return unique.toLowerCase().replace(/ /g, '-');
-  },
-
-  // Return a string with first letter uppercased
-  capitalize: function (s) {
-    if (!s) {
-      return '';
-    }
-
-    return s[0].toUpperCase() + s.slice(1);
   },
 
   numberWithCommas: function (x) {
