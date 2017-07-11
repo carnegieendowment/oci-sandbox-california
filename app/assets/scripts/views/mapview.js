@@ -35,6 +35,9 @@ var MapView = BaseView.extend({
     var oils = [];
     _.forEach(Oci.data.info, function (oil) { oils.push(oil); });
 
+    var refineries = [];
+    _.forEach(Oci.data.inforefinery, function (refinery) { refineries.push(refinery); });
+
     this.range = [
       Number(_.minBy(oils, function (oil) { return Number(oil['Total Emissions']); })['Total Emissions']),
       Number(_.maxBy(oils, function (oil) { return Number(oil['Total Emissions']); })['Total Emissions'])
