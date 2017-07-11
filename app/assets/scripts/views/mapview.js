@@ -115,33 +115,6 @@ var MapView = BaseView.extend({
         var tooltipOptions = {
           closeButton: false
         };
-          
-    refineries.forEach(function (refinery) {
-      var refinery = utils.getRefinery(refinery.Unique);
-
-      if (refinery) {
-        var centroid = turfCentroid(refinery);
-        var radiusValue = Number(refinery['Total Emissions']);
-        var ghgTotal = utils.numberWithCommas(refinery['Total Emissions']);
-
-        var tooltip = utils.createTooltipHtml(
-          refinery.Unique,
-          [
-            {
-              name: 'GHG Emissions',
-              value: ghgTotal,
-              units: utils.getUnits('ghgTotal', 'perBarrel')
-            }
-          ],
-          utils.makeRefId(refinery.Unique),
-          '',
-          refinery['Absolute Emissions Icons'],
-          '',
-          true
-        );
-        var tooltipOptions = {
-          closeButton: false
-        };
 
         // Circle marker style, default & interactive
         var marker = L.circleMarker(
@@ -200,6 +173,90 @@ var MapView = BaseView.extend({
       }
     });
 
+refineries.forEach(function (refinery) {
+      var refinery = utils.getRefinery(refinery.Unique);
+
+      if (refinery) {
+        var centroid = turfCentroid(refinery);
+        var radiusValue = Number(refinery['Total Emissions']);
+        var ghgTotal = utils.numberWithCommas(refinery['Total Emissions']);
+
+        var tooltip = utils.createTooltipHtml(
+          refinery.Unique,
+          [
+            {
+              name: 'GHG Emissions',
+              value: ghgTotal,
+              units: utils.getUnits('ghgTotal', 'perBarrel')
+            }
+          ],
+          utils.makeRefId(refinery.Unique),
+          '',
+          refinery['Absolute Emissions Icons'],
+          '',
+          true
+        );
+        var tooltipOptions = {
+          closeButton: false
+        };
+
+        // Circle marker style, default & interactive
+        var marker = L.circleMarker(
+          centroid.geometry.coordinates.reverse(), {
+            radius: self.radiusScale(radiusValue),
+            stroke: true,
+            weight: 0.75,
+            color: '#222',
+            fillColor: self.fillColor,
+            fillOpacity: 0.2,
+            className: utils.makeRefId(refinery.Unique)
+          }).bindPopup(tooltip, tooltipOptions).on({
+            'mouseover': function () {
+              marker.setStyle({
+                color: 'white',
+                weight: 1.5
+              });
+            },
+            'mouseout': function () {
+              marker.setStyle({
+                color: '#222',
+                weight: 0.75
+              });
+            }
+          });
+        self.markers.push(marker);
+
+        // Need a special double-tooltip if the Bakken oilfield is selected
+        // In this case, two oils share the same exact field
+        if (utils.makeRefId(refinery.Unique).indexOf('us-bakken') > -1) {
+          tooltip = self.makeBakkenTooltip();
+        }
+
+        // Polygon Style, default & interactive
+        var polygon = L.geoJson(refinery, {
+          fillColor: '#FFF',
+          fillOpacity: 0.2,
+          color: 'white',
+          weight: 2.5,
+          className: utils.makeRefId(refinery.Unique)
+        }).bindPopup(tooltip, tooltipOptions).on({
+          'mouseover': function () {
+            polygon.setStyle({
+              weight: 4,
+              fillOpacity: 0
+            });
+          },
+          'mouseout': function () {
+            polygon.setStyle({
+              weight: 2.5,
+              fillOpacity: 0.3
+            });
+          }
+        });
+        polygons.push(polygon);
+      }
+    });
+      
     // Make sure that smaller circles show up on top
     _.sortBy(self.markers, function (marker) { return marker._radius * -1; }).forEach(function (marker) {
       map.addLayer(marker);
