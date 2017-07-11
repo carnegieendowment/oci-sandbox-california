@@ -865,7 +865,7 @@ var utils = {
 
   getRefinery: function (unique) {
     // argument is an Oci.data.refineryinfo property key
-    var refinery = Oci.data.inforefinery[unique];
+    var refineryfield = Oci.data.inforefinery[unique];
     var refineryName = refinery['Refinery Name'];
     if (refineryName.match('Bakken')) {
       refineryName = 'Bakken';
