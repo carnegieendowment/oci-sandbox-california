@@ -173,11 +173,11 @@ var MapView = BaseView.extend({
       }
     });
 
-refineries.forEach(function (refinery) {
-      var refinery = utils.getRefinery(refinery.Unique);
+    refineries.forEach(function (refinery) {
+      var refineryfield = utils.getRefinery(refinery.Unique);
 
-      if (refinery) {
-        var centroid = turfCentroid(refinery);
+      if (refineryfield) {
+        var centroid = turfCentroid(refineryfield);
         var radiusValue = Number(refinery['Total Emissions']);
         var ghgTotal = utils.numberWithCommas(refinery['Total Emissions']);
 
