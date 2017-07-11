@@ -256,7 +256,7 @@ var MapView = BaseView.extend({
         polygons.push(polygon);
       }
     });
-      
+
     // Make sure that smaller circles show up on top
     _.sortBy(self.markers, function (marker) { return marker._radius * -1; }).forEach(function (marker) {
       map.addLayer(marker);
